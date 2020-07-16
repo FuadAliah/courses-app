@@ -1,0 +1,34 @@
+.addCourseForm {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+.addCourseForm input[type="text"] {
+    width: 80%;
+    height: 60px;
+    background: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+    font-size: 1rem;
+}
+.addCourseForm input[type="submit"] {
+    width: 20%;
+    height: 60px;
+    background: #00b4ea;
+    border: 0;
+    outline: 0;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Baloo Tamma 2", cursive;
+    font-size: 1.15rem;
+}
+.ErrorMsg{
+    position: absolute;
+    top: 66px;
+    color: tomato;
+    font-size: 1.0rem;
+    width: 80%;
+    text-align: left;
+}
